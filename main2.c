@@ -50,7 +50,7 @@ void afficherMin(){
 	}
 	
 	printf("Qu'est tu fais la avec : %d \n", note_min);
-	printf("qui est : %s \n", eleve_max);
+	printf("qui est : %s \n", eleve_min);
 }
 
 int main (int argc, char** argv) {
@@ -59,7 +59,7 @@ int main (int argc, char** argv) {
 		printf("Donne le prenom : ");
 		scanf("%s", &temp_prenom);
 		
-		printf("Donne la note du se perdu : ");
+		printf("Donne la note de se perdu : ");
 		scanf("%f", &temp_note);
 		
 		compteur++;
